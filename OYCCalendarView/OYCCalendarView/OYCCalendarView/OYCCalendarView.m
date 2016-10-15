@@ -7,7 +7,6 @@
 //
 
 #import "OYCCalendarView.h"
-#import "OYCCalendarViewLayout.h"
 #import "OYCCalendarViewCell.h"
 
 @interface OYCCalendarView()<UICollectionViewDataSource,UICollectionViewDelegate>
@@ -107,7 +106,7 @@ static OYCCalendarView *_calendarView;
     CGFloat calendarViewWidth = self.frame.size.width;
     CGFloat calendarViewHeight = self.frame.size.height - CGRectGetMaxY(self.titleLabel.frame) - 5 * 2;
     
-    OYCCalendarViewLayout *calendarViewLayout = [[OYCCalendarViewLayout alloc]init];
+    UICollectionViewFlowLayout *calendarViewLayout = [[UICollectionViewFlowLayout alloc]init];
     calendarViewLayout.itemSize = CGSizeMake(calendarViewWidth / 7, calendarViewHeight / 7);
     calendarViewLayout.minimumInteritemSpacing = 0;
     calendarViewLayout.minimumLineSpacing = 0;

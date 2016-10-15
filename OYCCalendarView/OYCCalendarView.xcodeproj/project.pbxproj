@@ -14,7 +14,6 @@
 		3A6575221DB0B72800C2DC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6575211DB0B72800C2DC68 /* Assets.xcassets */; };
 		3A6575251DB0B72800C2DC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6575231DB0B72800C2DC68 /* LaunchScreen.storyboard */; };
 		3A65752F1DB0B80500C2DC68 /* OYCCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65752E1DB0B80500C2DC68 /* OYCCalendarView.m */; };
-		3A6575321DB0D08700C2DC68 /* OYCCalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6575311DB0D08700C2DC68 /* OYCCalendarViewLayout.m */; };
 		3A6575351DB0D3DF00C2DC68 /* OYCCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6575341DB0D3DF00C2DC68 /* OYCCalendarViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		3A6575261DB0B72800C2DC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A65752D1DB0B80500C2DC68 /* OYCCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYCCalendarView.h; sourceTree = "<group>"; };
 		3A65752E1DB0B80500C2DC68 /* OYCCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYCCalendarView.m; sourceTree = "<group>"; };
-		3A6575301DB0D08700C2DC68 /* OYCCalendarViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYCCalendarViewLayout.h; sourceTree = "<group>"; };
-		3A6575311DB0D08700C2DC68 /* OYCCalendarViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYCCalendarViewLayout.m; sourceTree = "<group>"; };
 		3A6575331DB0D3DF00C2DC68 /* OYCCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYCCalendarViewCell.h; sourceTree = "<group>"; };
 		3A6575341DB0D3DF00C2DC68 /* OYCCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYCCalendarViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +91,6 @@
 			children = (
 				3A65752D1DB0B80500C2DC68 /* OYCCalendarView.h */,
 				3A65752E1DB0B80500C2DC68 /* OYCCalendarView.m */,
-				3A6575301DB0D08700C2DC68 /* OYCCalendarViewLayout.h */,
-				3A6575311DB0D08700C2DC68 /* OYCCalendarViewLayout.m */,
 				3A6575331DB0D3DF00C2DC68 /* OYCCalendarViewCell.h */,
 				3A6575341DB0D3DF00C2DC68 /* OYCCalendarViewCell.m */,
 			);
@@ -172,7 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6575321DB0D08700C2DC68 /* OYCCalendarViewLayout.m in Sources */,
 				3A65752F1DB0B80500C2DC68 /* OYCCalendarView.m in Sources */,
 				3A6575351DB0D3DF00C2DC68 /* OYCCalendarViewCell.m in Sources */,
 				3A65751D1DB0B72800C2DC68 /* ViewController.m in Sources */,
@@ -326,6 +320,7 @@
 				3A65752B1DB0B72800C2DC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
