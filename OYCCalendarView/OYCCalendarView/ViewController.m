@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "OYCCalendarView.h"
+
+#define OYCScreenWidth [UIScreen mainScreen].bounds.size.width
+#define OYCMargin 5
+#define OYCCalendarWidth (OYCScreenWidth - OYCMargin * 2)
+#define OYCCalendarHeight (OYCCalendarWidth * 1.1)
 
 @interface ViewController ()
 
@@ -16,7 +22,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    OYCCalendarView *calendarView = [OYCCalendarView sharedCalendar];
+    calendarView.frame = CGRectMake(OYCMargin, 100, OYCCalendarWidth, OYCCalendarHeight);
+    [self.view addSubview:calendarView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
